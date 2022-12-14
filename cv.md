@@ -2,7 +2,7 @@
 ---
 
 # **Javokhir Sobirjonov**
-===
+====
 
 ## **My Contact Info**
 ***
@@ -21,4 +21,4 @@ I am always eager to gain new knowledge and develop my technical and soft skills
 
 
 ## **Skills**
-===
+====
