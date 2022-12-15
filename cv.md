@@ -54,7 +54,7 @@ table {
 * __Courses:__
    + [The Odin Project](https://www.theodinproject.com/)
       - ["Full Stack JavaScript" course](https://www.theodinproject.com/paths/full-stack-javascript) (in progress) 
-   + JavaScript Manual on learn.javascript.ru (in progress)
+   + JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
    + [RS School](https://rs.school/)
       - ["JavaScript/Front-end. Stage 0" course](https://rs.school/js-stage0/) (in progress)
 
