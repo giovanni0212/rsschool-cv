@@ -1,6 +1,6 @@
 # [rsschool-cv](https://giovanni0212.github.io/rsschool-cv/)
 
-# **Javokhir Sobirjonov**
+## **Javokhir Sobirjonov**
 
 ## **Junior Frontend Developer**
 
@@ -70,4 +70,4 @@ table {
 * **Turkish** - basic
 
 
-![RS School logo](https://rs.school/images/partners/logo-rs.svg)
+![RS School logo](https://rs.school/images/partners/logo-rs.svg "https://rs.school/")
