@@ -60,3 +60,10 @@ table {
 
 ### **Languages**
   
+* __Uzbek__ - native
+* **Russian** - native
+* __English__ - advanced
+   + I have a four-month practice of English in the United States during my stay and work as an exchange student there in summer 2022   
+* **French** - pre-intermediate
+* __Spanish__ - basic
+* **Turkish** - basic
