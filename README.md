@@ -67,3 +67,6 @@ table {
 * **French** - pre-intermediate
 * __Spanish__ - basic
 * **Turkish** - basic
+
+
+![RS School logo](https://rs.school/images/partners/logo-rs.svg)
