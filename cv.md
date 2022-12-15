@@ -2,6 +2,8 @@
 
 # **Javokhir Sobirjonov**
 
+## **Junior Frontend Developer**
+
 ## **My Contact Info**
 
 * __Place of residence:__ Tashkent, Uzbekistan
