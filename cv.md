@@ -7,7 +7,6 @@
 ### **My Contact Info**
 
 * __Place of residence:__ Tashkent, Uzbekistan
-* __Phone number:__ [+998 93 819 00 29](telephone:%2B998938190029)
 * __E-mail:__ [jovannidos@gmail.com](mailto:jovannidos@gmail.com)
 * __LinkedIn:__ [javohir-sobirjonov](https://www.linkedin.com/in/javohir-sobirjonov)
 * __GitHub:__ [giovanni0212](https://github.com/giovanni0212)
