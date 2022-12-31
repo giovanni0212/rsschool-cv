@@ -29,28 +29,11 @@
     }
 
 
-    /* .contacts::before {
-    content: "<";
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
-    height: 10px; 
-    border: 1px solid #829985;
-    border-radius: 50%;
-    } */
-
-    .container {
-        max-width: 1440px;
-        margin: 0 auto;
-    }
-
-
     /* HEADER */
 
     header {
-        border: 5px solid yellow;
-        background-color: rgb(246, 236, 236);
+        /* border: 5px solid yellow; */
+        background-color: black;
         position: fixed;
         width: 100%;
         left: 0;
@@ -83,7 +66,7 @@
     .nav-link:hover::after {
         width: 100%;
         left: 0;
-        background-color: black;
+        background-color: orange;
         transition: width ease-in-out 0.8s;
     }
     .nav-link::after {
@@ -93,15 +76,16 @@
         right: 0;
         height: 3px;
         bottom: 5px;
-        background-color: black;
+        background-color: orange;
         transition: width ease-in-out 0.8s;
     }
+
 
     /* MAIN */
 
     main {
-        border: 3px solid red;
-        margin-top: 120px;
+        /* border: 3px solid red; */
+        margin: 120px 20px 0;
         display: flex;
         flex-wrap: wrap;
     }
@@ -110,36 +94,106 @@
         width: 50%;
     }
 
-    h2 {
-        padding-bottom: 40px;
+    h1, h2 {
+        padding-bottom: 40px;   
+        padding-left: 20px;
+        letter-spacing: 2px;
     }
 
     .my-photo {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         /* clip-path: circle(); */
+        margin-left: 200px;
+    }
+
+    .name {
+        font-size: xx-large;
+    }
+
+    .name, .jun-dev {
+        text-align: center;
+    }
+
+    .hr-name {
+        border: 0;
+        border-top: 3px dashed orange;
+        left: 70%;
+        margin-top: -20px;
+        padding-bottom: 15px;
+        width: 180px;
+    }
+
+    /* .name::after {
+    content: "";
+    position: absolute;
+    left: 70%;
+    margin-top: 60px;
+    width: 150px;
+    height: 2px;
+    background-color: orange;
+    } */
+
+    .hr-photo {
+        border: 0;
+        border-top: 5px solid orange;
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 200%;
+    }
+
+    .contacts-list {
+        list-style: none;
+        padding: 15px;
+    }
+
+    .location {
+        margin-left: 4px;
+    }
+
+    .hr-general {
+        border: 0;
+        border-top: 2px solid orange;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 95%;
+    }
+
+    code {
+        font-size: large;
+        /* font-family: Consolas,"courier new"; */
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 20px;
     }
 
     .main-link, .course-link {
         text-decoration: none;
         color: orange;
     }
-
     .main-link:hover, .course-link:hover {
         color: darkblue;
     }
 
+    
     /* FOOTER */
 
     footer {
-        border: 5px solid yellowgreen;
+        background-color: black;
+        position:relative;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 0;
     }
 
     .footer-link:hover::after {
         width: 100%;
         left: 0;
-        background-color: black;
+        background-color: orange;
         transition: width ease-in-out 0.8s;
     }
     .footer-link::after {
@@ -149,13 +203,18 @@
         right: 0;
         height: 3px;
         bottom: 5px;
-        background-color: black;
+        background-color: orange;
         transition: width ease-in-out 0.8s;
     }
 
+    .footer-text {
+        color: orange;
+        position: absolute;
+        margin: 20px;
+    }
+
     .rs-logo {
-        /* block-size: 130px; */
-        height: 150px;
-        width: 250px;
+        block-size: 50px;
         float: right;
+        margin: 20px;
     }
