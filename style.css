@@ -32,7 +32,6 @@
     /* HEADER */
 
     header {
-        /* border: 5px solid yellow; */
         background-color: black;
         position: fixed;
         width: 100%;
@@ -84,7 +83,6 @@
     /* MAIN */
 
     main {
-        /* border: 3px solid red; */
         margin: 120px 20px 0;
         display: flex;
         flex-wrap: wrap;
