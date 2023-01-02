@@ -5,49 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+
     <link rel="shortcut icon" href="assets/img/favicon1.ico" type="image/x-icon">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
     <title>Javokhir Sobirjonov - Junior Frontend Developer</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#about me" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code sample" class="nav-link">Code Sample</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-sample" class="nav-link">Code Sample</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>                
+            </ul>
+        </nav>
     </header>
     
     <main class="main">           
-        
-        <section class="section">
-            <img class="my-photo" src="assets/img/my photo.jpg" alt="Personal photo">
+
+        <section>
+            <img class="my-photo" src="assets/img/my-photo.jpg" alt="Personal photo" title="my photo">
+
+            <hr class="hr-photo">
         </section>
-        
-        <section class="section">
+
+        <section>
             <h1 class="name">Hi, I'm Javokhir :)</h1>
+            <hr class="hr-name">
             <h2 class="jun-dev">Junior Frontend Developer</h2>
         </section>
 
-        <section class="section">
-            <ul id="contacts"><h2>Contacts</h2>
-                <li><b>Place of residence:</b> Tashkent, Uzbekistan</li>
-                <li><b>E-mail:</b> <a href="mailto:jovannidos@gmail.com" class="main-link">jovannidos@gmail.com</a></li>
-                <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/javohir-sobirjonov" target="_blank" class="main-link">javohir-sobirjonov</a></li>
-                <li><b>GitHub:</b> <a href="https://github.com/giovanni0212" target="_blank" class="main-link">giovanni0212</a></li>
+        <section>
+            <h2 id="contacts">Contacts</h2>
+
+            <ul class="contacts-list">
+                <li class="location"><i class="fa fa-map-marker" style="font-size: 28px; padding-right: 5px;"></i>
+                    <b>Place of residence:</b> Tashkent, Uzbekistan</li>
+                
+                <li><i class="fa fa-envelope" style="font-size: 24px; padding-right: 5px;"></i>
+                    <b>E-mail:</b> <a href="mailto:jovannidos@gmail.com" class="main-link">jovannidos@gmail.com</a></li>
+
+                <li><i class="fa fa-linkedin-square" style="font-size: 24px; padding-right: 5px;"></i>
+                    <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/javohir-sobirjonov" target="_blank" class="main-link">javohir-sobirjonov</a></li>
+                
+                <li><i class="fa fa-github" style="font-size: 24px; padding-right: 5px;"></i>
+                    <b>GitHub:</b> <a href="https://github.com/giovanni0212" target="_blank" class="main-link">giovanni0212</a></li>
             </ul>
         </section>
 
-        <section class="section">
-            <h2 id="about me">About me</h2>
+        <section>
+            <h2 id="about-me">About me</h2>
             <p>
                 I am a final year student at Management Development Institute of Singapore in Tashkent. I have experience in international procurement processes through the work done at Meros Pharm, one of Uzbekistan's largest pharmaceutical companies.<br><br>
 
@@ -55,8 +70,11 @@
             </p>
         </section>
 
-        <section class="section">
-            <ul id="skills"><h2>Hard skills</h2>
+        <section>
+            <hr class="hr-general">
+
+            <h2 id="skills">Hard skills</h2>
+            <ul>
                 <li class="skills-item">HTML, CSS</li>
                 <li class="skills-item">JavaScript basics</li>
                 <li class="skills-item">Version Control System: Git, GitHub</li>
@@ -64,15 +82,19 @@
             </ul>
         </section>
 
-        <section class="section">
-            <h2 id="code sample">Code Sample</h2>
-            <xmp>
-               <button type="button" onclick="document.getElementById('time').innerHTML = Date()">Click me to display Date and Time</button>
-               <p id="time"></p>
-            </xmp>
+        <section>
+            <hr class="hr-general">
+
+            <h2 id="code-sample">Code Sample</h2>
+            <code>
+               &lt;button type="button" onclick="document.<br>getElementById('time').innerHTML = Date()"&gt;<br>Click me to display the current Date and Time<br>&lt;/button&gt;<br>
+               &lt;p id="time"&gt;&lt;/p&gt;
+            </code>
         </section>
 
-        <section class="section">
+        <section>
+            <hr class="hr-general">
+
             <h2 id="education">Education</h2>
                 <ul>
                     <li class="mdis"><b>Management Development Institute of Singapore in Tashkent</b></li><br>
@@ -98,8 +120,11 @@
                 </ul>
         </section>
 
-        <section class="section">
-            <ul id="languages"><h2>Languages</h2>
+        <section>
+            <hr class="hr-general">
+
+            <h2 id="languages">Languages</h2>
+            <ul>
                 <li class="lang-item"><b>Uzbek</b> - native</li>
                 <li class="lang-item"><b>Russian</b> - native</li>
                 <li class="lang-item"><b>English</b> - advanced
@@ -115,10 +140,11 @@
     </main>
 
     <footer class="footer">
-        <div class="container"> &copy; 2022 by <a href="https://github.com/giovanni0212" target="_blank" class="footer-link">Javokhir Sobirjonov</a></div>
+        <div class="footer-text"> &copy; 2022 by <a href="https://github.com/giovanni0212" target="_blank" title="my GitHub" class="footer-link">Javokhir Sobirjonov</a></div>
         
         <a href="https://rs.school/js" target="_blank">
-            <img class="rs-logo" src="https://rs.school/images/partners/logo-rs.svg" alt="RS School logo"></a>
+            <img class="rs-logo" src="assets/img/rsschool-logo.svg" alt="RS School logo" title="RS School"></a>
+            <!-- <img class="rs-logo" src="https://cv-hints.netlify.app/assets/svg/rss.svg" alt="RS School logo"></a> -->
     </footer>
 
 </body>
