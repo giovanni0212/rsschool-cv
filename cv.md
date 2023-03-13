@@ -13,9 +13,9 @@
 
 ### **About me**
 
-I am a final year student at Management Development Institute of Singapore in Tashkent. I have experience in international procurement processes through the work done at Meros Pharm, one of Uzbekistan's largest pharmaceutical companies. 
+I am a final year student at Management Development Institute of Singapore in Tashkent. I have experience in international supply chain and logistics processes through the work done at Meros Pharm, one of Uzbekistan's largest pharmaceutical companies. 
 
-I am always eager to gain new knowledge and develop my technical and soft skills, thus open to new challenges and adventures. Recently, after having made a small research about computer programming, I became very interested in this field, therefore decided to dive into it. I signed up for the RS School basic course on JS/Front-End, and for now, it has become the first step of my amazing programming journey. Let's see where it will eventually take us! ;)
+I am always eager to gain new knowledge and develop my technical and soft skills, thus open to new challenges and adventures. Recently, after having made a small research about computer programming, I became very interested in this field, therefore decided to dive into it. I signed up for the RS School course on JS/Front-End, and for now, it has become the first step of my amazing programming journey. Let's see where it will eventually take us! ;)
 
 ### **Skills**
 
@@ -67,4 +67,4 @@ table {
    + I have a four-month practice of English in the United States during my stay and work as an exchange student there in summer 2022   
 * **French** - pre-intermediate
 * __Spanish__ - basic
-* **Turkish** - basic
+* **Arabic** - basic
